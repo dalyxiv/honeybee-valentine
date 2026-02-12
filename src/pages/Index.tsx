@@ -1,12 +1,53 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { useState } from "react";
+import LandingAsk from "@/components/valentine/LandingAsk";
+import Confetti from "@/components/valentine/Confetti";
+import ProfileCard from "@/components/valentine/ProfileCard";
+import LoveMetrics from "@/components/valentine/LoveMetrics";
+import BucketListTickets from "@/components/valentine/BucketListTickets";
+import DreamBoard from "@/components/valentine/DreamBoard";
+import GiftReveal from "@/components/valentine/GiftReveal";
+import FooterLetter from "@/components/valentine/FooterLetter";
+import MusicPlayer from "@/components/valentine/MusicPlayer";
+import EasterEggs from "@/components/valentine/EasterEggs";
 
 const Index = () => {
+  const [saidYes, setSaidYes] = useState(false);
+  const [showConfetti, setShowConfetti] = useState(false);
+
+  const handleYes = () => {
+    setShowConfetti(true);
+    setSaidYes(true);
+    setTimeout(() => {
+      document.getElementById("main-content")?.scrollIntoView({ behavior: "smooth" });
+    }, 1500);
+  };
+
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen bg-background">
+      <Confetti active={showConfetti} />
+      <EasterEggs />
+
+      {/* Phase 1: The Ask */}
+      <LandingAsk onYes={handleYes} />
+
+      {/* Phase 2: The Experience */}
+      {saidYes && (
+        <div id="main-content" className="animate-fade-in">
+          <ProfileCard />
+          <div className="w-24 h-px bg-secondary/30 mx-auto" />
+          <LoveMetrics />
+          <div className="w-24 h-px bg-secondary/30 mx-auto" />
+          <BucketListTickets />
+          <div className="w-24 h-px bg-secondary/30 mx-auto" />
+          <DreamBoard />
+          <div className="w-24 h-px bg-secondary/30 mx-auto" />
+          <GiftReveal />
+          <div className="w-24 h-px bg-secondary/30 mx-auto" />
+          <FooterLetter />
+        </div>
+      )}
+
+      {saidYes && <MusicPlayer />}
     </div>
   );
 };
