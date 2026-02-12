@@ -3,8 +3,8 @@ const ProfileCard = () => {
     { label: "Class", value: "Media Mage / Art Specialist", icon: "🎨" },
     { label: "Origin", value: "10th of Ramadan", icon: "🏙️" },
     { label: "Power Move", value: "Walking on benches in Physics class", icon: "⚡" },
-    { label: "Weakness", value: "Flexible material at the cleavage area", icon: "😏" },
-    { label: "Fuel", value: "English Tea & Mangoes", icon: "🍵🥭" },
+    { label: "Weakness", value: "Being tickled in wink wink", icon: "😏" },
+    { label: "Fuel", value: "Bubble Tea & Sushi", icon: "🧋🍣" },
     { label: "Lucky Stats", value: "1 & 3:14", icon: "🍀" },
   ];
 
