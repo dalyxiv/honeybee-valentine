@@ -4,7 +4,7 @@ const ProfileCard = () => {
     { label: "Origin", value: "10th of Ramadan", icon: "🏙️" },
     { label: "Power Move", value: "Walking on benches in Physics class", icon: "⚡" },
     { label: "Weakness", value: "Being tickled in wink wink", icon: "😏" },
-    { label: "Fuel", value: "Bubble Tea & Sushi", icon: "🧋🍣" },
+    { label: "Fuel", value: "Bubble Tea & Sushi", icon: "🍵🍱" },
     { label: "Lucky Stats", value: "1 & 3:14", icon: "🍀" },
   ];
 
