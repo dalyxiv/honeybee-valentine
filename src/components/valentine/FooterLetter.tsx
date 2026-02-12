@@ -37,8 +37,8 @@ const FooterLetter = () => {
 
         {/* Kiwi Warning */}
         <p className="text-center text-xs text-muted-foreground font-body mt-8 opacity-60">
-          ⚠️ Warning: This site contains 0% Kiwi. Certified safe for
-          consumption. 🥝🚫
+          ⚠️ Warning: This site contains 0% Kiwi, Mushrooms and Strawberries. Certified safe for
+          consumption. 🥝🍄🍓🚫
         </p>
       </div>
     </footer>

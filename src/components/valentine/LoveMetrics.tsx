@@ -3,7 +3,7 @@ import { PieChart, Pie, Cell, ResponsiveContainer, Tooltip } from "recharts";
 const brainData = [
   { name: "Designing / Marketing", value: 50, emoji: "🎨" },
   { name: "How to fly & touch clouds", value: 30, emoji: "☁️" },
-  { name: "Daly (Me)", value: 10, emoji: "💜" },
+  { name: "Daly", value: 14, emoji: "💜" },
   { name: "Secretly wanting Chicken & Shrimp", value: 10, emoji: "🍗🦐" },
 ];
 
