@@ -5,6 +5,7 @@ const milestones = [
   { date: "January 1, 2024", title: "Walked into LOVE ♥", desc: "Starting the new year by officially falling for each other.", emoji: "❤️" },
   { date: "January 7, 2024", title: "The Three Words", desc: 'The day I first told you "I love you."', emoji: "💜" },
   { date: "February 14, 2024", title: "Making it Official", desc: "The Valentine's Day I asked you to officially be my girlfriend.", emoji: "💍" },
+  { date: "September 26, 2024", title: "Peach Day 😏", desc: "The day a banana met a peach.", emoji: "🍑" },
   { date: "September 30, 2024", title: "Distance Begins", desc: "The start of our long-distance chapter.", emoji: "✈️" },
   { date: "March 14, 2025", title: "The Question", desc: "The day I first asked you to marry me.", emoji: "💎" },
   { date: "December 31, 2025", title: "The Proposal in Morocco", desc: "When I officially proposed with the ring in Casablanca.", emoji: "🇲🇦" },
