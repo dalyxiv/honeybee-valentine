@@ -4,6 +4,7 @@ import Confetti from "@/components/valentine/Confetti";
 import ProfileCard from "@/components/valentine/ProfileCard";
 import LoveMetrics from "@/components/valentine/LoveMetrics";
 import BucketListTickets from "@/components/valentine/BucketListTickets";
+import JourneyTimeline from "@/components/valentine/JourneyTimeline";
 import DreamBoard from "@/components/valentine/DreamBoard";
 import GiftReveal from "@/components/valentine/GiftReveal";
 import BrandIdentityGift from "@/components/valentine/BrandIdentityGift";
@@ -39,6 +40,8 @@ const Index = () => {
           <LoveMetrics />
           <div className="w-24 h-px bg-secondary/30 mx-auto" />
           <BucketListTickets />
+          <div className="w-24 h-px bg-secondary/30 mx-auto" />
+          <JourneyTimeline />
           <div className="w-24 h-px bg-secondary/30 mx-auto" />
           <DreamBoard />
           <div className="w-24 h-px bg-secondary/30 mx-auto" />
