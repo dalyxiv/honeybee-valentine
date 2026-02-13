@@ -6,6 +6,7 @@ import LoveMetrics from "@/components/valentine/LoveMetrics";
 import BucketListTickets from "@/components/valentine/BucketListTickets";
 import DreamBoard from "@/components/valentine/DreamBoard";
 import GiftReveal from "@/components/valentine/GiftReveal";
+import BrandIdentityGift from "@/components/valentine/BrandIdentityGift";
 import FooterLetter from "@/components/valentine/FooterLetter";
 import MusicPlayer from "@/components/valentine/MusicPlayer";
 import EasterEggs from "@/components/valentine/EasterEggs";
@@ -42,6 +43,8 @@ const Index = () => {
           <DreamBoard />
           <div className="w-24 h-px bg-secondary/30 mx-auto" />
           <GiftReveal />
+          <div className="w-24 h-px bg-secondary/30 mx-auto" />
+          <BrandIdentityGift />
           <div className="w-24 h-px bg-secondary/30 mx-auto" />
           <FooterLetter />
         </div>
