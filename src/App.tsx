@@ -17,6 +17,7 @@ const App = () => (
       <BrowserRouter basename="/honeybee-valentine">
         <Routes>
           <Route path="/" element={<Index />} />
+          <Route path="/planner" element={<TimelinePlanner />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
