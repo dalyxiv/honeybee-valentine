@@ -1,3 +1,6 @@
+import { Link } from "react-router-dom";
+import { CalendarHeart } from "lucide-react";
+
 const FooterLetter = () => {
   return (
     <footer className="py-20 px-4">
