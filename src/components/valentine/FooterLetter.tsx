@@ -43,6 +43,17 @@ const FooterLetter = () => {
           ⚠️ Warning: This site contains 0% Kiwi, Mushrooms and Strawberries. Certified safe for
           consumption. 🥝🍄🍓🚫
         </p>
+
+        {/* Planner Link */}
+        <div className="mt-8 text-center">
+          <Link
+            to="/planner"
+            className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-gradient-purple text-primary-foreground font-body font-semibold shadow-purple hover:scale-105 transition-transform"
+          >
+            <CalendarHeart className="w-5 h-5" />
+            Plan Our Future Together 💛
+          </Link>
+        </div>
       </div>
     </footer>
   );
