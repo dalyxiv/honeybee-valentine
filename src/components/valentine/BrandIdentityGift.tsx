@@ -3,6 +3,8 @@ import logo1 from "@/assets/Honeybee_1.png";
 import logo2 from "@/assets/Honeybee_2.png";
 import logo3 from "@/assets/Honeybee_3.png";
 import logo4 from "@/assets/Honeybee_4.png";
+import winnerYellow from "@/assets/whaleybee-yellow.png";
+import winnerPurple from "@/assets/whaleybee-purple.png";
 
 const logos = [
   { id: 1, src: logo1, label: "Option 1" },
@@ -58,6 +60,35 @@ const BrandIdentityGift = () => {
               </button>
             );
           })}
+        </div>
+
+        {/* Winner reveal */}
+        <div className="mt-16">
+          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-secondary text-secondary-foreground font-body font-bold text-sm mb-4">
+            🏆 WINNER
+          </div>
+          <h3 className="font-display text-2xl md:text-4xl font-bold mb-2">
+            WhaleyBee
+          </h3>
+          <p className="text-muted-foreground font-body mb-8">
+            The final logo decision we made together 🐋🐝
+          </p>
+          <div className="grid grid-cols-2 gap-6">
+            <div className="relative p-4 rounded-2xl border-2 border-secondary bg-gradient-card shadow-honey">
+              <img
+                src={winnerYellow}
+                alt="WhaleyBee logo on yellow"
+                className="w-full aspect-square rounded-xl object-cover"
+              />
+            </div>
+            <div className="relative p-4 rounded-2xl border-2 border-secondary bg-gradient-card shadow-honey">
+              <img
+                src={winnerPurple}
+                alt="WhaleyBee logo on purple"
+                className="w-full aspect-square rounded-xl object-cover"
+              />
+            </div>
+          </div>
         </div>
       </div>
     </section>
